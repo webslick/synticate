@@ -1,0 +1,51 @@
+Return-path: <no_reply_support@trust-provider.com>
+Envelope-to: admin@visionariumartfestival.com
+Delivery-date: Sat, 18 Jan 2020 17:08:49 +0300
+Authentication-Results: dkim=pass, header.i=@trust-provider.com
+Received: from relay11.hosting.reg.ru ([31.31.194.237])
+	by server236.hosting.reg.ru with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92.3)
+	(envelope-from <no_reply_support@trust-provider.com>)
+	id 1isomP-0003qX-4B
+	for admin@visionariumartfestival.com; Sat, 18 Jan 2020 17:08:49 +0300
+Received: from opsmail.dc.sectigo.com ([91.212.12.133] helo=ssmail3.sec.dc.comodoca.net)
+	by relay11.hosting.reg.ru with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92.3)
+	(envelope-from <no_reply_support@trust-provider.com>)
+	id 1isomx-0004xy-Kk
+	for admin@visionariumartfestival.com; Sat, 18 Jan 2020 17:09:25 +0300
+Received: (qmail 10378 invoked by uid 1027); 18 Jan 2020 14:08:45 -0000
+Authentication-Results: ssmail3.sec.dc.comodoca.net; auth=none
+Received: from Unknown (HELO saspmail.dc.comodoca.net) (10.49.128.21)
+ by ssmail3.sec.dc.comodoca.net (qpsmtpd/0.96) with SMTP ; Sat, 18 Jan 2020 14:08:45 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; d=trust-provider.com; h=subject:from:to; s=smail; bh=ecRq/dKCOAcTTt1RM5w6dBnFGqFqAo7ALkF+/Ov1AtQ=; b=M/y6OabnvdCRp+psjL2NXLqPvW0OJYc0q8ZteBNaVMGzUZNLasPU12h1UJWZowFWi5Fp7p+Il3Ocq694FAJmuTvpl6Uy+YLfb/K8LLCwF7n1179Pow3/GVOjG6V37Z2EKTOWYXKTNqz+JtUoqav2g2AZCzYI/pqHIJilmb0+hMM=
+Subject: Comodo Domain Validation for visionariumartfestival.com
+From: "Sectigo Certification Authority" <noreply_support@trust-provider.com>
+To: "admin@visionariumartfestival.com" <admin@visionariumartfestival.com>
+X-Spam-Bar: +++
+Message-Id: <E1isomP-0003qX-4B@server236.hosting.reg.ru>
+Date: Sat, 18 Jan 2020 17:08:49 +0300
+
+Dear admin@visionariumartfestival.com,
+
+Comodo has received a request to issue an SSL certificate for visionariumartfestival.com.
+
+If you want to have this certificate issued, please browse to https://secure.trust-provider.com/products/EnterDCVCode?orderNumber=292356454 and enter the following validation code:
+
+BRUJufG2IkDwHH0GBLtDNEwFVLx9-RIs
+
+Please ignore this email if neither you nor a trusted colleague made a request for a certificate. If you have any questions about this order, please contact the party where you have placed your order. Do not reply to this e-mail as it is not monitored.
+
+Kind Regards,
+
+Comodo Security Services
+
+Comodo CA Limited - US Office
+525 Washington Blvd.
+Jersey City, NJ 07310-1600
+
+Comodo CA Limited - European Office
+26 Office Village,
+Exchange Quay, Trafford Road,
+Salford, Manchester M5 3EQ,
+United Kingdom

@@ -1,0 +1,92 @@
+@media (max-width: 759px) {
+	.right-bar {
+		width: 90%;
+		right: -90%;
+	}
+
+	.win-close {
+		background: rgba(0, 0, 0, 0.85);
+		border-radius: 50%;
+		padding: 6px;
+		right: 3px;
+		top: 3px;
+		z-index: 1;
+	}
+
+	.section-one--preview {
+		flex: 1 1 100%;
+		order: 1;
+		padding-bottom: 56%;
+	}
+
+	.section-one--text {
+		flex: 1 1 100%;
+		order: 2;
+	}
+
+	.page-contacts--section-two .page-contacts--content {
+		padding: 0 4vw 50px;
+	}
+	.page-contacts--section-two .page-contacts--text {
+		flex: 1 1 100%;
+		order: 2;
+		padding: 0;
+	}
+	.page-contacts--section-two .page-contacts--element {
+		flex: 1 1 100%;
+		order: 1;
+		max-width: 80%;
+		margin: 0 auto;
+	}
+
+	.page-careers--section-two .page-careers--text {
+		flex: 0 1 70%;
+	}
+	.page-careers--section-two .page-careers-element {
+		position: absolute;
+		left: 50%;
+		top: 0;
+		z-index: 1;
+		width: 100%;
+		padding: 0 4vw 50px;
+	}
+
+	.go-to-btn {
+		display: none;
+	}
+}
+@media (max-width: 690px) {
+	.sw-item {
+		flex: 1 1 100%;
+	}
+	.sw-item.preload-img {
+		padding-bottom: 56%;
+	}
+
+	.page-contacts--section-two .page-contacts--element {
+		max-width: 60%;
+	}
+	.page-contacts--section-two .soc-btn {
+		display: none;
+	}
+}
+@media (max-width: 460px) {
+	.header {
+		padding: 6px 0 0;
+	}
+
+	.header-content .logo-wrap {
+		max-width: 150px;
+	}
+
+	.main-section-one {
+		padding: 70px 0 40px;
+	}
+
+	.page-contacts--section-two .page-contacts--content {
+		padding: 0 4vw 50px;
+	}
+	.page-contacts--section-two .page-contacts--element {
+		max-width: 50%;
+	}
+}

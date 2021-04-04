@@ -1,0 +1,12 @@
+/* Page careers */
+.page-careers--content {
+	height: 100vh;
+}
+
+.page-careers--element {
+	position: absolute;
+	top: 30%;
+	right: -50%;
+	width: 650px;
+	height: 650px;
+}

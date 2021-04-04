@@ -1,0 +1,63 @@
+Return-path: <clleoweb@gmail.com>
+Envelope-to: admin@visionariumartfestival.com
+Delivery-date: Fri, 17 Jan 2020 05:13:23 +0300
+Authentication-Results: dkim=pass, header.i=@gmail.com
+Received: from relay12.hosting.reg.ru ([31.31.194.226])
+	by server236.hosting.reg.ru with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92.3)
+	(envelope-from <clleoweb@gmail.com>)
+	id 1isH8V-000mse-3b
+	for admin@visionariumartfestival.com; Fri, 17 Jan 2020 05:13:23 +0300
+Received: from mail-pg1-f175.google.com ([209.85.215.175])
+	by relay12.hosting.reg.ru with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.92.3)
+	(envelope-from <clleoweb@gmail.com>)
+	id 1isH8u-0001X7-E7
+	for admin@visionariumartfestival.com; Fri, 17 Jan 2020 05:13:48 +0300
+Received: by mail-pg1-f175.google.com with SMTP id k197so10866242pga.10
+        for <admin@visionariumartfestival.com>; Thu, 16 Jan 2020 18:13:22 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=from:content-transfer-encoding:mime-version:subject:message-id:date
+         :to;
+        bh=5BTXPrrXZfX1SiKgkVGmje0iNAT62UrfVy2vrfSF4fY=;
+        b=EsfIQHckXV0q36kj7j09/VhqYGNsgLcFlR0biyMA18bgM7+cSY+tDspIbop1MftTWR
+         aEmwKz7jt6G6jKXQr2epM0U+p5vS/tSvJ15IZ0G9lU1qh8CGHg+CvJih9Nqc8Rtt5fCq
+         i/uxUxO2kPuvvSPkqtf87AcR5jvStVfqncwRLBN9C3tTgGmq3DCkNjr+NwG13DZXdOw2
+         OdILpEsg2dwm5vE7TwzFWCvf10nVDeTJYvGzlgXNaxYpR0o6sXEr3z5/iG7QMM2/YgzT
+         W22ewIJyUjhqA4Bu5gWUOCu9acGeZGDF3JmABcB8UU0CZvw7KryXvlyRd626qt8UIXbo
+         KCvA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:content-transfer-encoding:mime-version
+         :subject:message-id:date:to;
+        bh=5BTXPrrXZfX1SiKgkVGmje0iNAT62UrfVy2vrfSF4fY=;
+        b=GrLo/BC84F6yYG9Oa3/1kJL936J83qdGthF24PnzNiveko2WhIpNAgg41pWdEymD3k
+         Ok654zc+6IvUJ7BjsgShaouOenc1uOkaOUEFhlZsrTwBDxukR4GTCcRTo09sTGtK6KyC
+         bhUkFZrUWXHvaK/wGrh4x659HVF+3olqv04dHAy1LC+Ocs7iby2EJGEJzn3HmyhqZctA
+         MNj6ouPX6rtRMXdn4F7AjhZD20kJrnUK97qeZA/FjgqcR7awAva0G3X61HCOHldtbV8U
+         x+t7/6GYuVYYuvcrCvsml7tLtb1SBl7j9R+dt6maBOiqscwVg9mj8o8/ci4d362RWb5/
+         MVbQ==
+X-Gm-Message-State: APjAAAVYd6y5uJNj50drK4FZA4uKu2rPU7g+dsfTxjkHtnOQLYv0rll4
+	iDDWg/XNXBzreQsrrcGwEHs20+4zdvvRyQ==
+X-Google-Smtp-Source: APXvYqwqltPCF9LhlepvTRsc0Dbx1Gcj1iVdd676uZn1fWSbHwJQ4cIpeSz/XSRKR1Np635OP3jD4g==
+X-Received: by 2002:a63:e4f:: with SMTP id 15mr40927706pgo.398.1579227200517;
+        Thu, 16 Jan 2020 18:13:20 -0800 (PST)
+Received: from [192.168.88.212] ([103.97.92.203])
+        by smtp.gmail.com with ESMTPSA id t187sm27429929pfd.21.2020.01.16.18.13.18
+        for <admin@visionariumartfestival.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 16 Jan 2020 18:13:19 -0800 (PST)
+From: Clleo Web <clleoweb@gmail.com>
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: base64
+Mime-Version: 1.0 (Mac OS X Mail 13.0 \(3608.40.2.2.4\))
+Subject: Test test
+Message-Id: <E996FCA2-E61E-4832-812E-B3A2527F9339@gmail.com>
+Date: Fri, 17 Jan 2020 07:43:15 +0530
+To: admin@visionariumartfestival.com
+X-Mailer: Apple Mail (2.3608.40.2.2.4)
+X-Spam-Bar: +++
+
+0KLQtdGB0YLQvtCy0L7QtSDRgdC+0L7QsdGJ0LXQvdC40LU=

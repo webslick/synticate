@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+/* Gallery */
+.wrap-gallery {
+	max-width: 100%;	
+}
+.wrap-gallery .wrap_page_inner {
+/*     background: rgba(148, 147, 144, 0.34); */
+    background: inherit;
+}
+.gallery-wrap {
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1px 24px -10px #00edff;
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    padding: 30px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto 80px;
+	max-width: 1400px;
+    
+}
+.gallery-wrap .admin-menu {
+    left: 98%;
+    top: -20px;
+}
+.ug-thumb-overlay .admin-menu {
+	position: absolute;
+	left: auto;
+	right: 10px;
+	top: 5px;
+}
+.ug-thumb-overlay .admin-menu:hover .ad-menu {
+    transform: translate3d(-75px,15px,0);
+    opacity: 1;
+}
+.ad-menu {
+    background: inherit;
+    box-shadow: 0 2px 22px -10px #00edff;
+    border-radius: 5px;
+    position: absolute;
+    overflow: hidden;
+    top: -35px;
+    right: -73px;
+    transition: .3s;
+    transform: scale(0.2);
+    opacity: 0;
+}
+.gallery-wrap .ad-menu {
+    top: 3px;
+    right: -52px;
+}
+.gallery-wrap .admin-menu:hover .ad-menu {
+    top: -10px;
+    right: -55px;
+}
+.ug-thumb-overlay .ad-menu {
+	right: 30px;
+	top: 0;
+}
+.gallery-edit-menu {
+	left: 98%;
+	top: -20px;
+}
+.gallery-edit-menu .ad-menu  {
+	right: -50px;
+	top: -10px;
+}
+.gallery-edit-menu:hover .ad-menu {
+    transform: translate3d(-65px,30px,0);
+}
+
+/* Gallery Menu */
+.nav-galleries-wrap {
+	margin: 0 auto 230px;
+	max-width: 1200px;
+}
+.nav-galleries-title {
+	padding: 30px 0 20px;
+	font-size: 13px;
+	color: #00e0fb;
+	text-align: center;
+	text-shadow: 0 1px 2px #000, 0 -2px 5px #000;
+	font-family: 'Ethnocentric', Arial;  
+}
+.nav-galleries {
+	padding: 20px;
+	justify-content: center;
+}
+.g-link {
+	background: rgba(3, 74, 77, 0.8);
+	border-radius: 3px;
+	position: relative;
+	padding: 10px 15px;
+	margin: 0 10px 18px;
+	color: #90deea;
+	cursor: pointer;
+	transition: .5s;
+}
+.g-link:hover {
+	background: rgba(34, 204, 212, 0.7);
+	color: #e0e3e4;
+	transform: scale(1.06);
+}
+.g-link:active {
+	background: rgba(33, 118, 121, 0.7);
+	transform: scale(1.05);
+}
+
+/* Style for mobile */
+@media screen and (max-width: 860px) {
+	.g-link {
+	    padding: 10px 8px;
+	}
+	.gallery-wrap {
+	    padding: 30px 10px;
+	    margin: 0 0 80px;
+	}
+}

@@ -1,0 +1,15 @@
+.list__item._active li:nth-child(1) {
+	transition: transform 0.8s ease 0s;
+}
+.list__item._active li:nth-child(2) {
+	transition: transform 0.8s ease 0.4s;
+}
+.list__item._active li:nth-child(3) {
+	transition: transform 0.8s ease 0.6s;
+}
+.list__item._active li:nth-child(4) {
+	transition: transform 0.8s ease 0.8s;
+}
+.list__item._active li:nth-child(5) {
+	transition: transform 0.8s ease 1s;
+}

@@ -1,0 +1,27 @@
+
+
+memory_limit = 1024M
+max_execution_time = 300
+upload_max_filesize = 32M
+post_max_size = 32M
+realpath_cache_size = 8M
+magic_quotes_gpc = Off
+date.timezone = "Europe/Moscow"
+
+
+session.save_path = "/tmp/u0649870"
+sendmail_path = "/usr/sbin/sendmail -t -i -f u0649870@31.31.198.23"
+
+opcache.revalidate_freq = 0
+mail.log = "/var/www/u0649870/data/mail.log"
+mail.add_x_header = On
+[ISPmgr]
+date.timezone = 'Europe/Moscow'
+magic_quotes_gpc = Off
+mail.log = "/var/www/u0649870/data/mail.log"
+max_execution_time = 300
+memory_limit = 1024M
+post_max_size = 256M
+realpath_cache_size = 32M
+session.save_path = "/var/www/u0649870/data/bin-tmp/"
+upload_max_filesize = 256M

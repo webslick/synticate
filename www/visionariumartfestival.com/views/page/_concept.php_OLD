@@ -1,0 +1,59 @@
+<!-- Main content -->	
+<main class="content-page animate third_bottom">		
+    <h1 class="page-h1">Concept</h1>
+
+	<!-- Articles List -->
+	<section class="article-wrap flex sb col-1 rise block-up">
+		<!-- Big ban_1 -->
+		<article class="article-item art-col-1">
+			<div class="flex sb">
+				<h2>Visionarium Festival</h2>
+				<!-- admin-menu -->
+				<?php include ("../include/admin_menu.php")?>
+			</div> 
+			<div class="art-video-block">
+				<iframe width="100%" height="500" src="https://www.youtube.com/embed/UpcsfWAek0I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>	
+			<div class="art-text-block">	
+				<p>We would like to invite you to a magnificent event.
+					Where artists, decorators and creators collective comes together manage and co-create in festival grounds.
+					Visionarium art collective presents a ground where artists come to create, exhibit, teach and study together.</p>
+			</div>
+		</article>
+		
+        <!-- Article-->
+        <? //print_r( $data['items'] ); ?>
+        <? foreach( $data['items'] as $item ): ?>
+		<article class="article-item art-<?=$item['type']?>" id="<?=$item['Id']?>">
+			
+
+			<div class="flex sb">
+                <h2><?=$item['name']?></h2>
+                <? if( $data['user']['admin'] || $data['user']['moder'] ): ?>
+                <div class="admin-menu fa-caret-down">
+                	<ul class="ad-menu">
+                		<li onclick="load_modal(this, 'admin/edit?id=<?=$item['Id']?>');"><b class="fa-pencil-square-o"></b> Edit</li>
+                		<li onclick="remove_admin(this, 'admin/remove?id=<?=$item['Id']?>');"><b class="fa-trash-o"></b> Dell</li>
+                	</ul>
+                </div>
+                <? endif ?>
+            </div>
+            
+            <div class="art-img-block">
+                <? //print_r( $item ) ?>
+                <? if( $item['img'][0] != 'no_img.jpg' ): ?>			
+				<img src="/images/<?=$data['link']?>/<?=$item['img'][0]?>">			
+                <? else: ?>
+                <img src="" style="display:none;">
+                <? endif; ?>
+            </div>
+            
+			<div class="art-text-block">
+                <?=$item['content']?>
+			</div>
+		</article>
+        <? endforeach ?>
+        
+	</section><!-- END Articles List -->
+
+</main><!-- END Main content -->

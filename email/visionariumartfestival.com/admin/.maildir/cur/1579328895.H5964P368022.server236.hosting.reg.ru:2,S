@@ -1,0 +1,134 @@
+Return-path: <clleoweb@gmail.com>
+Envelope-to: admin@visionariumartfestival.com
+Delivery-date: Sat, 18 Jan 2020 09:28:15 +0300
+Authentication-Results: dkim=pass, header.i=@gmail.com
+Received: from relay11.hosting.reg.ru ([31.31.194.237])
+	by server236.hosting.reg.ru with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92.3)
+	(envelope-from <clleoweb@gmail.com>)
+	id 1ishag-001Xjn-Va
+	for admin@visionariumartfestival.com; Sat, 18 Jan 2020 09:28:14 +0300
+Received: from mail-pj1-f50.google.com ([209.85.216.50])
+	by relay11.hosting.reg.ru with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.92.3)
+	(envelope-from <clleoweb@gmail.com>)
+	id 1ishbG-0000ni-7G
+	for admin@visionariumartfestival.com; Sat, 18 Jan 2020 09:28:50 +0300
+Received: by mail-pj1-f50.google.com with SMTP id s7so4392451pjc.0
+        for <admin@visionariumartfestival.com>; Fri, 17 Jan 2020 22:28:14 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=from:mime-version:subject:message-id:references:to:date;
+        bh=R04oQxFadQq/3EbHLKYoBeaPIwMFvTg7u9x1ig1Dgko=;
+        b=Vg7/zctnTX2c+CRdyRYC39n9ROj8sFXmNGfIf+b0qx52lKr/4E5vPxkIO6K/XHAIrk
+         HX7rK1zmMSvFtPFBM8sWvK9CZcwq0rxIj2LkTjJ2/dkJKNzwRtm1pS4p1BaKZ13WpFTk
+         PyJBxuwXL3WHR76AC2vEta4nPO7OU4Aoh2BymdZnApXydCO9k3HNCoQtmtP21LM2XTyG
+         TMyWn7SlgtufB/8cYic5u1Lq9M27omhwCGq0NPAY/Rt6S9KNTO7o/oD3WLRAE/vrlsjD
+         aatPjgMCKNuWWkUPE0LefYPpOjrJoVv8PWHbh7YEyt0xwGZPqP/MjUG9zom1SvjUqfFP
+         cuoA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:mime-version:subject:message-id:references
+         :to:date;
+        bh=R04oQxFadQq/3EbHLKYoBeaPIwMFvTg7u9x1ig1Dgko=;
+        b=bMOJK1rqjovYcxSefSl/F4Z1j0q4V413YYBs+Z+mClUKBWt2htKgtVWXkpICQP1udR
+         vMGnlzFs6IDhIABnKVY0i8xv7r3+C7JC6Zi3lCeMvMtELWc2pssOLru6eMu8GQM8ewQK
+         gE7sVOvPhfSB4i336NTdJq7r5CS+wyqHDAcmuOcmqE7YhXT/OjxQphoc7turyy8SmpB7
+         LjHmOXlfvXpgrD6MupsjAiYgdiSejcykgfIsxAowLsDz2NVu0RxTKrKndpYNpVUs5eHt
+         9MZqiOitTQ/MgPqKQA/dYBYl/23Oi9/lune9lHsvW0/SMIHS+JWg0yHdzbw0eiGuMMDf
+         828Q==
+X-Gm-Message-State: APjAAAWdPWWje7O1vibaatsRCQPbMu0zj+KKzNxJrbJlKXVX8BClufRS
+	+4YCc3Iyj4Mj8usBc1Q4iRvhUGD0BfJ1NA==
+X-Google-Smtp-Source: APXvYqwJfJM3z52mbWR3eQXHQGONr9Aaa7d+kFVSjBAFjySAvTbB1an0qjdtlRYlsfcHVWBAk68AOA==
+X-Received: by 2002:a17:902:8682:: with SMTP id g2mr3280121plo.273.1579328892366;
+        Fri, 17 Jan 2020 22:28:12 -0800 (PST)
+Received: from [192.168.88.212] ([36.255.233.119])
+        by smtp.gmail.com with ESMTPSA id e16sm29599907pgk.77.2020.01.17.22.28.10
+        for <admin@visionariumartfestival.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 17 Jan 2020 22:28:11 -0800 (PST)
+From: Clleo Web <clleoweb@gmail.com>
+Content-Type: multipart/alternative;
+	boundary="Apple-Mail=_435AEFE2-90FB-45A8-A2C8-BFCB7BF95889"
+Mime-Version: 1.0 (Mac OS X Mail 13.0 \(3608.40.2.2.4\))
+Subject: Fwd: Test test
+Message-Id: <903AC606-E6D2-41A5-AAF7-CDDBAAE63F04@gmail.com>
+References: <E996FCA2-E61E-4832-812E-B3A2527F9339@gmail.com>
+To: admin@visionariumartfestival.com
+Date: Sat, 18 Jan 2020 11:58:02 +0530
+X-Mailer: Apple Mail (2.3608.40.2.2.4)
+
+
+--Apple-Mail=_435AEFE2-90FB-45A8-A2C8-BFCB7BF95889
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=utf-8
+
+Fwd: Test testFwd: Test testFwd: Test test &&&
+
+> =D0=9D=D0=B0=D1=87=D0=B0=D0=BB=D0=BE =
+=D0=BF=D0=B5=D1=80=D0=B5=D0=B0=D0=B4=D1=80=D0=B5=D1=81=D0=BE=D0=B2=D0=B0=D0=
+=BD=D0=BD=D0=BE=D0=B3=D0=BE =D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=
+=D1=8F:
+>=20
+> =D0=9E=D1=82=D0=BF=D1=80=D0=B0=D0=B2=D0=B8=D1=82=D0=B5=D0=BB=D1=8C: =
+Clleo Web <clleoweb@gmail.com>
+> =D0=A2=D0=B5=D0=BC=D0=B0: Test test
+> =D0=94=D0=B0=D1=82=D0=B0: 17 =D1=8F=D0=BD=D0=B2=D0=B0=D1=80=D1=8F 2020 =
+=D0=B3. =D0=B2 07:43:15 GMT+5:30
+> =D0=9A=D0=BE=D0=BC=D1=83: admin@visionariumartfestival.com
+>=20
+> =D0=A2=D0=B5=D1=81=D1=82=D0=BE=D0=B2=D0=BE=D0=B5 =D1=81=D0=BE=D0=BE=D0=B1=
+=D1=89=D0=B5=D0=BD=D0=B8=D0=B5
+
+
+--Apple-Mail=_435AEFE2-90FB-45A8-A2C8-BFCB7BF95889
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3Dutf-8"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; line-break: after-white-space;" class=3D"">Fwd: =
+Test testFwd: Test testFwd: Test test &amp;&amp;&amp;<br =
+class=3D""><div><br class=3D""><blockquote type=3D"cite" class=3D""><div =
+class=3D"">=D0=9D=D0=B0=D1=87=D0=B0=D0=BB=D0=BE =
+=D0=BF=D0=B5=D1=80=D0=B5=D0=B0=D0=B4=D1=80=D0=B5=D1=81=D0=BE=D0=B2=D0=B0=D0=
+=BD=D0=BD=D0=BE=D0=B3=D0=BE =D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=
+=D1=8F:</div><br class=3D"Apple-interchange-newline"><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px;" class=3D""><span style=3D"font-family: =
+-webkit-system-font, Helvetica Neue, Helvetica, sans-serif; =
+color:rgba(0, 0, 0, 1.0);" class=3D""><b =
+class=3D"">=D0=9E=D1=82=D0=BF=D1=80=D0=B0=D0=B2=D0=B8=D1=82=D0=B5=D0=BB=D1=
+=8C: </b></span><span style=3D"font-family: -webkit-system-font, =
+Helvetica Neue, Helvetica, sans-serif;" class=3D"">Clleo Web &lt;<a =
+href=3D"mailto:clleoweb@gmail.com" =
+class=3D"">clleoweb@gmail.com</a>&gt;<br class=3D""></span></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px;" class=3D""><span style=3D"font-family: =
+-webkit-system-font, Helvetica Neue, Helvetica, sans-serif; =
+color:rgba(0, 0, 0, 1.0);" class=3D""><b class=3D"">=D0=A2=D0=B5=D0=BC=D0=B0=
+: </b></span><span style=3D"font-family: -webkit-system-font, Helvetica =
+Neue, Helvetica, sans-serif;" class=3D""><b class=3D"">Test test</b><br =
+class=3D""></span></div><div style=3D"margin-top: 0px; margin-right: =
+0px; margin-bottom: 0px; margin-left: 0px;" class=3D""><span =
+style=3D"font-family: -webkit-system-font, Helvetica Neue, Helvetica, =
+sans-serif; color:rgba(0, 0, 0, 1.0);" class=3D""><b class=3D"">=D0=94=D0=B0=
+=D1=82=D0=B0: </b></span><span style=3D"font-family: =
+-webkit-system-font, Helvetica Neue, Helvetica, sans-serif;" class=3D"">17=
+ =D1=8F=D0=BD=D0=B2=D0=B0=D1=80=D1=8F 2020 =D0=B3. =D0=B2&nbsp;07:43:15 =
+GMT+5:30<br class=3D""></span></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px;" class=3D""><span=
+ style=3D"font-family: -webkit-system-font, Helvetica Neue, Helvetica, =
+sans-serif; color:rgba(0, 0, 0, 1.0);" class=3D""><b class=3D"">=D0=9A=D0=BE=
+=D0=BC=D1=83: </b></span><span style=3D"font-family: =
+-webkit-system-font, Helvetica Neue, Helvetica, sans-serif;" class=3D""><a=
+ href=3D"mailto:admin@visionariumartfestival.com" =
+class=3D"">admin@visionariumartfestival.com</a><br =
+class=3D""></span></div><br class=3D""><div class=3D""><div =
+class=3D"">=D0=A2=D0=B5=D1=81=D1=82=D0=BE=D0=B2=D0=BE=D0=B5 =
+=D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D0=B5</div></div></blockq=
+uote></div><br class=3D""></body></html>=
+
+--Apple-Mail=_435AEFE2-90FB-45A8-A2C8-BFCB7BF95889--

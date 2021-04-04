@@ -1,0 +1,26 @@
+/* Revealator jQuery Plugin */
+.revealator-fade,
+.revealator-slideup {
+/* Default effect duration */
+  transition: all 600ms;
+}
+/* Fade effect */
+.revealator-fade {
+  opacity: 0;
+}
+.revealator-fade.revealator-within,
+.revealator-fade.revealator-partially-above,
+.revealator-fade.revealator-above {
+  opacity: 1;
+}
+/* Slide up effect */
+.revealator-slideup {
+  transform: translate(0, 100px);
+  opacity: 0;
+}
+.revealator-slideup.revealator-within,
+.revealator-slideup.revealator-partially-above,
+.revealator-slideup.revealator-above {
+  transform: translate(0, 0);
+  opacity: 1;
+}

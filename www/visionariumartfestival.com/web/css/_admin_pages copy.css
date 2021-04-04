@@ -1,0 +1,353 @@
+/* Add content Window */
+.admin-modal-wrap {
+	
+}
+.admin-modal {
+    padding: 0 0 20px;
+    width: 100%;
+    max-width: 800px;
+    min-width: 300px;
+    margin-bottom: 200px;
+}
+.admin-modal-title {
+    color: #eee;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 15px 25px 40px;
+}
+.admin-modal-content {
+	padding: 10px 20px;
+}
+.content-type {
+	align-items: center;
+    margin: 0 0 20px;
+}
+.content-input-block {
+    max-width: 423px;
+    margin: 0 0 30px;
+}
+.c-type {
+    background: #319c99;
+    border-radius: 2px;
+    height: 25px;
+    width: 70px;
+    margin-left: 15px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.c-type.col-type-2 {
+    width: 35px;
+}
+.c-inp:checked + .c-type {
+	opacity: 1;
+}
+.content-title-wrap {
+    margin: 0 0 20px;
+}
+.content-title {
+    flex: 4;
+    height: 50px;
+}
+.c-title {
+	background: #5e6e6f;
+	border-radius: 3px;
+	padding: 12px 15px;
+	width: 100%;
+}
+.content-publ {
+	flex: 3;
+	text-align: right;
+	padding: 0 10px;
+}
+.content-img {
+	background: #5e6e6f;
+	border-radius: 3px;
+	overflow: hidden; 
+	min-height: 200px;
+	margin: 0 0 20px;
+	text-align: center; 
+}
+.content-img img {
+	width: 100%;
+}
+.load-img-title {
+    background: #4a5c5d;
+    position: relative;
+    padding: 60px;
+    width: 80%;
+    top: 30px;
+    cursor: pointer;
+}
+.content-text-wrap {
+	background: #5e6e6f;
+	border-radius: 3px;
+	margin-bottom: 20px;
+}
+.content-text-wrap textarea {
+    width: 100%;
+    border-radius: 3px;
+    padding: 15px;
+    background: #5e6e6f;
+}
+.img-type:before {
+    content: '\f03e';
+    font-size: 26px;
+    margin-left: 20px;
+    cursor: pointer;
+    color: #319c99;
+    opacity: 0.5;
+}
+.yot-type:before {
+	content: '\f167';
+}
+.c-inp:checked + .img-type:before {
+	opacity: 1;
+
+
+
+/* User list Window */
+.admin-list-wrap {
+    padding: 10px 20px;
+}
+.admin-list-item {
+    background: rgba(46, 78, 78, 0.7);
+    border-radius: 60px 3px 3px 60px;
+    position: relative;
+    padding: 10px;
+    margin: 0 0 10px;
+}
+.admin-avatar {
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    margin-right: 30px;
+}
+.admin-avatar img {
+    width: 100%;
+}
+.admin-avatar .fa {
+    position: absolute;
+    bottom: -2px;
+    left: 45px;
+    z-index: 1;
+    color: #efefef;
+    cursor: pointer;
+    transition: .3s;
+}
+.admin-data-inp {
+    position: relative;
+    margin: 0 0 10px;
+}
+.admin-data {
+    flex: 0 280px;
+	font-size: 14px;
+	color: #eee;
+}
+.admin-data-inp input {
+	background: #9ca6a7;
+	border: 1px solid #9ca6a7;
+	border-radius: 3px;
+    position: relative;
+    padding: 6px 14px 6px 35px;
+    width: 100%;
+    color: #333;
+    font-size: 16px;
+}
+.admin-data-inp input:hover {
+	background: #adbebf;
+	border: 1px solid #adbebf;
+}
+.admin-data-inp input:focus {
+	background: #fff;
+	border: 1px solid #fff;
+}
+.admin-data-inp.err input {
+	border: 1px solid #f92d2d;
+}
+.admin-data-inp input::-webkit-input-placeholder {color: #405253}
+.admin-data-inp input::-moz-placeholder {color: #405253}
+.admin-data-inp input:-ms-input-placeholder {color: #405253}
+.admin-data-inp input:placeholder {color: #405253}
+
+.admin-data-inp .fa {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 16px;
+    color: #1e4848;
+}
+.edit-block {
+	flex: auto;
+	position: relative;	
+}
+.edit-block .fa-close-1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    color: #627677;
+	font-size: 15px;
+}
+.edit-block .admin-menu {
+    position: absolute;
+    right: 0;
+}
+.edit-block .fa-close-1:hover {
+    transform: scale(1.2);
+    color: #87b6b8; 
+}
+.add-btn {
+	background: #25544f;
+    border-radius: 3px;
+    position: absolute;
+    padding: 8px 15px;
+    top: 10px;
+	right: 10%;
+    font-size: 12px;
+    color: #eee;
+    cursor: pointer;
+}
+.add-btn b {
+	position: relative;
+	right: -6px;
+}
+.add-btn:hover {
+    background: #306762;
+}
+.save-btn {
+    background: #2d7b54;
+    border-radius: 3px;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #eee;
+    cursor: pointer;
+    bottom: 10px;
+    right: 10px;
+}
+.save-btn:hover {
+    background: #49ae67;
+}
+.save-btn b {
+	position: relative;
+	margin-left: 10px;
+	right: -6px;
+}
+.modal-tips {
+    background: #348a5f;
+    border-radius: 5px;
+    padding: 8px;
+    width: 215px;
+    text-align: center;
+    font-size: 14px;
+    color: #eee;
+    left: 50%;
+    position: absolute;
+    margin-left: -100px;
+    top: 14px;
+}
+.tip-err {
+	background: #ff7676;
+	top: 55px;
+}
+.admin-name {
+	color: #eee;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 3px 0 8px;
+}
+.admin-phone { 
+    color: #eee;
+	margin: 0 0 6px;
+}
+.admin-email {
+    color: #52c0fc;
+    margin: 0 0 16px;
+}
+.admin-pass {
+    font-size: 22px;
+    color: #f6502d;
+    line-height: 0.5;
+}
+.admin-root {
+	position: absolute;
+	right: 60px;
+	top: 0;
+	color: #627677;
+}
+.root-label {
+    cursor: pointer;
+}
+.root-label:after, .add-gal-link:after {
+    content: "\f096";
+    font-size: 20px;
+    top: 4px;
+    left: 6px;
+    position: relative;
+}
+.root-box:checked + .root-label:after,
+.add-gal-box:checked + .add-gal-link:after {
+    content: "\f046";
+    color: #59f581;
+}
+
+/* Confirm popap */
+.confirm-popap-wrap {
+    background: rgba(0,0,0,.6);
+    position: fixed;
+    padding: 0 10px;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: color .4s;
+    z-index: 100;
+}
+.confirm-popap {
+    background-color: rgba(2,24,27,.8);
+    border-radius: 5px;
+    box-shadow: 0 0 20px -5px #02dcf6;
+    position: relative;
+    top: 30%;
+    transition: .3s;
+    margin: 0 auto;
+	width: 260px;
+    opacity: 0;
+    -webkit-animation: fade-up forwards .3s ease-out;
+    animation: fade-up forwards .3s ease-out;
+}
+.conf-title {
+	padding: 25px 0 50px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #ddfa4f;
+	text-align: center;
+}
+.conf-btn > span {
+	display: inline-block;
+	padding: 10px;
+	width: 48%;
+	cursor: pointer;
+	color: #fff;
+	text-align: center;
+	transition: .3s;
+	font-size: 14px;
+	opacity: .8;
+}
+.conf-btn > span:hover {
+	opacity: 1;
+}
+.conf-ok {
+	background: #bc6464;
+	border-radius: 0 15px 0 5px;
+}
+.conf-no {
+	background: #5f8fa5;
+	border-radius: 15px 0 5px 0;
+}
+
+
+
